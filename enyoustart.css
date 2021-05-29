@@ -1,0 +1,106 @@
+html{
+	scroll-behavior: smooth;
+}
+* {
+	margin: 0;
+	padding: 0; 
+	background-color: white;
+}
+
+body { 
+	margin: 0 auto;
+	width : 420px;
+}
+a {
+	height: 1px;
+	text-decoration: none;
+	color: black;
+}
+#banner {
+	font-family: 'Jua', sans-serif;
+	color: white;
+	text-align: center;
+	width: 400px;
+	margin: 0px auto;
+	padding: 100px 10px 10px 10px;
+	border : none;
+	padding-bottom: 10px;
+}
+
+#question {
+	font-family: 'Jua', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	width: 320px;
+	height: 250px;
+	margin: 5px auto;
+	padding: 25px;
+	/*background-color: #eeccff;*/
+	border : none;
+}
+.post{
+}
+.post-wrapper{
+	height: 250px;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+	margin: 0px auto;	
+	padding: 0px 5px;
+}
+#post1{
+	padding: 0px 15px 0px 15px;
+	font-size: 60px;
+	height: 80px;
+	margin: 0px auto;
+	color: black;
+}
+#post2{
+	padding: 0px 15px;
+	font-size: 40px;	
+	color: black;
+	height: 50px;
+	margin: 0px auto;
+}
+#post3{
+	padding: 0px 15px;
+	font-size: 30px;	
+	color: #A8A8A8; 
+	height: 25px;
+	margin: 0px auto;
+}
+#post4{
+	color: #A8A8A8; 
+	font-size: 25px;	
+	margin: 0px auto;
+}
+#answer {
+	padding: 50px 25px 120px 25px;
+	text-align: center;
+}
+#answer button { 
+	width: 370px;
+	height: 110px;
+	font-size: 45px; 
+	border : none;
+	border-radius: 2em;
+	background-color: black; 
+	color: white; 
+	margin-bottom: 10px; 
+	padding: 15px; 
+	font-family: 'Jua', sans-serif;
+}
+
+#answer button:hover { 
+	color: white; 
+	background-color: #A8A8A8; 
+	font-family: 'Jua', sans-serif;
+}
+
+footer { 
+	font-size: 20px;
+	text-align: center; 
+	font-family: 'Jua', sans-serif;
+	background-color: white;
+	padding: 5px;
+}

@@ -20,6 +20,8 @@ $(function() {
 		
 	 	document.getElementById("result_img").src = "test2.JPG";
 		$("#text1").text("type B, royal PaleBlue");
+		$("#text1").css("text-align","left");
+
 		$("#text2").text("타고난 낙관주의자로 밝은 분위기로 주변을 즐겁게 해주는 당신! 사람들의 장점을 발견하고 칭찬하는데 능숙해요. 소소한 선물이나 좋아하는 사람의 웃음만으로도 행복감을 느끼는 사람이네요.흩어져 있는 사람들을 한데 모으는 재능을 가졌어요, 선물 같은 사람이네요!");
 		
 		$("#text3").css("display","block");
